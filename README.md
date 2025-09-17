@@ -84,5 +84,10 @@ REMOVE OUTLIERS
 USE BOXPLOT FUNCTION HERE TO CHECK OUTLIER IS REMOVED
 <img width="785" height="542" alt="Screenshot 2025-09-02 084607" src="https://github.com/user-attachments/assets/54d781cc-935a-41a6-8fe7-bda8256af3c2" />
 
+#SUMMARY
+
+
+This script shows how to handle missing values and outliers in a dataset. It starts by reading a CSV file, checking for null values, and then handling them in different ways—either by dropping them, filling them with a constant value (“0”), using forward/backward fill, or replacing them with the mean of a column. Next, it works with an age dataset to detect and remove outliers using a boxplot and the IQR method. After removing outliers, it checks again with a boxplot to confirm. Finally, it uses another dataset to detect and remove outliers with the Z-score method, again using boxplots before and after to show the results. Overall, the script explains how to clean data by treating missing values and outliers.
+
 # Result
           The given data has been read and performed data cleaning and saved the cleaned data to a file successfully
